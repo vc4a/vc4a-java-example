@@ -5,7 +5,7 @@ package biz.vc4africa.java;
  */
 interface Constants {
 
-    String API_URL = "https://api.vc4africa.biz/v1";
+    String API_URL = "http://api.vc4africa.biz/v1";
     String API_HOST = "api.vc4africa.biz";
     String VENTURE_SEARCH_URL = API_URL+"/venture/search.json";
     String VENTURE_ACTIVITY_URL = API_URL+"/venture/%s/activity.json";
